@@ -4,22 +4,31 @@
   <title>Test Contact Form</title>
 </head>
 <body>
-  <div class="contact-form">
-    <form id="contactForm" action="https://formsubmit.co/skanefrogosa@gmail.com" method="POST">
-      <input type="hidden" name="_captcha" value="false">
-      <input type="hidden" name="_next" value="">
-
-      <label>Name</label>
-      <input type="text" name="name" required><br>
-
-      <label>Email</label>
-      <input type="email" name="email" required><br>
-
-      <label>Message</label>
-      <textarea name="message" required></textarea><br>
-
-      <button type="submit">Send</button>
-    </form>
-  </div>
+   <div class="contact-form">
+          <form id="contactForm" action="https://formsubmit.co/skanefrogosa@gmail.com" method="POST">
+            <!-- Prevent Formsubmit Redirect -->
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="">
+        
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required maxlength="35">
+        
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required maxlength="35">
+        
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Subject" maxlength="100">
+        
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Your Message" rows="4" required maxlength="350" style="resize: none;"></textarea>
+        
+            <button type="submit" class="send-btn">Send Message</button>
+          </form>
+        
+          <!-- Success Message (Initially Hidden) -->
+                    <p id="successMessage" style="display: none; color: green; margin-top: 10px;">
+            ✅ Message sent successfully!
+          </p>
+   </div>
 </body>
 </html>

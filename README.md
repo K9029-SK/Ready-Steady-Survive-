@@ -44,7 +44,7 @@ This project was developed using the **Godot 4.3 Game Engine** and programmed in
 
 ## 📥 Installation
 
-1. Download the APK file from [Google Drive link or GitHub Releases].
+1. Download the APK file from [https://drive.google.com/file/d/12aJM5EnvW70EcFPKd2iUdVvv-1EUPsyg/view?usp=sharing].
 2. Transfer it to your Android device.
 3. Allow installation from unknown sources (if prompted).
 4. Install and play!

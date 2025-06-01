@@ -1,7 +1,7 @@
 # 🔥 Ready, Steady, Survive! 🔥  
 **Gamified Fire Safety Awareness and Prevention Game**
 
-![Game Banner](Game Pic.png)
+![Game Banner](image/Game%20Pic.png)
 
 ## 📱 Overview  
 **Ready, Steady, Survive!** is an offline mobile game developed as a capstone project for the Bachelor of Science in Information Technology at Aklan State University – Kalibo Campus. It aims to promote **fire safety awareness and prevention** through engaging gameplay and interactive educational modules.

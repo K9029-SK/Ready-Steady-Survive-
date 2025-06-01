@@ -1,3 +1,4 @@
+<div align="center">
 # 🔥 Ready, Steady, Survive! 🔥  
 **Gamified Fire Safety Awareness and Prevention Game**
 
@@ -86,4 +87,4 @@ Special thanks to:
 
 > “Ready means to be prepared. Steady means stay calm. Survive means act wisely.”  
 > — *RSS Team*
-
+</div>

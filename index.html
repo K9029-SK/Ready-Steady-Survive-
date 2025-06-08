@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ready, Steady, Survive!</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-image: url('assets/img/newbg.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .page-title {
+      color: white;
+      font-size: 2.8rem;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .container {
+      padding: 0;
+      border-radius: 20px;
+      max-width: 900px;
+      width: 100%;
+      text-align: center;
+      background-color: rgba(78, 58, 58, 0.384);
+      padding: 30px;
+      margin-top: -15px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+      line-height: 1.6;
+      color: white;
+    }
+
+    .main-image {
+      width: 200px;
+      max-height: 200px;
+      object-fit: cover;
+      border-radius: 12px;
+      margin-bottom: 1px;
+      margin-top: -10px;
+    }
+
+    .download-btn {
+      display: inline-block;
+      padding: 10px 30px;
+      background-color: #f12626;
+      color: #fff;
+      font-size: 1.1rem;
+      text-decoration: none;
+      border-radius: 10px;
+      transition: background-color 0.3s ease;
+      width: 300px;
+    }
+
+    .download-btn:hover {
+      background-color: #f13e3e;
+    }
+
+    .bi-android2 {
+      color: rgb(49, 192, 49);
+    }
+    .bi-windows {
+      color: rgb(0, 87, 248);
+    }
+    .pixel-title {
+    font-family: 'Press Start 2P', cursive;
+    color: #f13e3e;
+    font-size: 2.5rem;
+    text-align: center;
+    text-shadow: 2px 2px #8b0000;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    image-rendering: pixelated;
+    animation: zoomInOut 5s infinite;
+    }
+    @keyframes zoomInOut {
+    0%, 100% {
+      transform: scale(0.9);
+    }
+    50% {
+      transform: scale(1);
+    }
+    }
+
+    /* Individual positions */
+    .cloud-img-cloud1,
+    .cloud-img-cloud2,
+    .cloud-img-cloud3,
+    .cloud-img-cloud4,
+    .cloud-img-cloud5,
+    .cloud-img-cloud6 {
+        position: absolute;
+        top: 10%; /* Adjust as needed */
+    }
+
+    .cloud-img-cloud1 {
+        left: 5%;
+        width: 100px;
+    }
+
+    .cloud-img-cloud2 {
+        left: 18%;
+        width: 120px;
+    }
+
+    .cloud-img-cloud3 {
+        left: 35%;
+        width: 90px;
+    }
+
+    .cloud-img-cloud4 {
+        left: 50%;
+        width: 110px;
+    }
+
+    .cloud-img-cloud5 {
+        left: 70%;
+        width: 130px;
+    }
+
+    .cloud-img-cloud6 {
+        left: 85%;
+        width: 100px;
+    }
+
+
+
+    @media (max-width: 600px) {
+      .page-title {
+        font-size: 1.5rem;
+      }
+      p {
+        font-size: 0.9rem;
+      }
+      .main-image {
+        width: 150px;
+        max-height: 150px;
+      }
+      .download-btn {
+        font-size: 0.9rem;
+        padding: 8px 20px;
+        width: 250px;
+      }
+    .cloud-img-cloud1 {
+      width: 70px; /* Adjust size for Cloud 1 */
+      top: 5%; /* Adjust position for Cloud 1 */
+    }
+
+    .cloud-img-cloud2 {
+      width: 70px; /* Adjust size for Cloud 2 */
+      top: 10%; /* Adjust position for Cloud 2 */
+    }
+
+    .cloud-img-cloud3 {
+      width: 60px; /* Adjust size for Cloud 3 */
+      top: 5%; /* Adjust position for Cloud 3 */
+    }
+
+    .cloud-img-cloud4 {
+      width: 70px; /* Adjust size for Cloud 4 */
+      top: 10%; /* Adjust position for Cloud 4 */
+    }
+
+    .cloud-img-cloud5 {
+      width: 70px; /* Adjust size for Cloud 5 */
+      top: 20%; /* Adjust position for Cloud 5 */
+    }
+
+    .cloud-img-cloud6 {
+      width: 70px; /* Adjust size for Cloud 6 */
+      top: 15%; /* Adjust position for Cloud 6 */
+    }
+    }
+  </style>
+</head>
+<body>
+  <!-- Title outside container -->
+<img src="assets/img/cloud.png" alt="Cloud 1" class="cloud-img-cloud1" />
+<img src="assets/img/cloud.png" alt="Cloud 2" class="cloud-img-cloud2" />
+<img src="assets/img/cloud.png" alt="Cloud 3" class="cloud-img-cloud3" />
+<img src="assets/img/cloud.png" alt="Cloud 4" class="cloud-img-cloud4" />
+<img src="assets/img/cloud.png" alt="Cloud 5" class="cloud-img-cloud5" />
+<img src="assets/img/cloud.png" alt="Cloud 6" class="cloud-img-cloud6" />
+
+  <h1 class="pixel-title">READY STEADY SURVIVE</h1>
+
+  <!-- Main container -->
+  <div class="container">
+    <!-- Large Image -->
+    <img src="assets/img/GameIcon.png" alt="Main Game Screenshot" class="main-image" />
+
+    <p>
+      A gamified fire safety awareness and prevention adventure! Learn how to react in emergency situations, stay alert, and make life-saving choices all while playing.
+    </p>
+
+    <!-- Download Buttons -->
+    <div>
+      <a class="download-btn" href="assets/applications/Ready, Steady, Survive! Game.zip" download>
+        <i class="bi bi-windows" style="font-size: 1.2rem; vertical-align: middle; margin-right: 8px;"></i>
+        Download for Windows
+      </a>
+      <br><br>
+      <a class="download-btn" href="assets/applications/Ready, Steady, Survive!.apk" download>
+        <i class="bi bi-android2" style="font-size: 1.2rem; vertical-align: middle; margin-right: 8px;"></i>
+        Download for Android
+      </a>
+    </div>
+  </div>
+
+  <!-- Bootstrap Bundle JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

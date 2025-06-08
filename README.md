@@ -28,8 +28,8 @@ This project was developed using the **Godot 4.3 Game Engine** and programmed in
 ## 📸 Screenshots
 
 | Safety Tip UI | In-Game Environment | High Score UI |
-|---------------|---------------------|----------------|
-| ![Tip](screenshots/tip1.png) | ![Env](screenshots/level.png) | ![Score](screenshots/score.png) |
+|---------------|---------------------|----------------|https://github.com/K9029-SK/Ready-Steady-Survive-/blob/main/README.md
+| ![Tip](image/Screenshot(289).png) | ![Env](image/Screenshot(289).png) | ![Score](image/Screenshot(289).png) |
 
 ---
 

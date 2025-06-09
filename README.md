@@ -29,7 +29,7 @@ This project was developed using the **Godot 4.3 Game Engine** and programmed in
 
 | Main Menu UI | Settings |  In-Game Environment|
 | Safety Tip UI | High Score UI |
-| ![Mai](image/Screenshot%20(293).png) | ![Set](image/Screenshot%20(293).png) | ![Env](image/Screenshot%20(293).png) | ![Tip](image/Screenshot%20(289).png) | ![Score](image/Screenshot%20(290).png) |
+| ![Mai](image/Screenshot%202025-06-09%20193947.png) | ![Set](image/Screenshot%202025-06-09%20193959.png) | ![Env](image/Screenshot%20(293).png) | ![Tip](image/Screenshot%20(289).png) | ![Score](image/Screenshot%20(290).png) |
 
 ---
 
